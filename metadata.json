@@ -1,0 +1,11 @@
+{
+  "name": "ระบบบันทึกเวลาเข้างาน (Face & GPS Attendance)",
+  "description": "ระบบบันทึกเวลาเข้างานด้วยการสแกนใบหน้า (Face Recognition) และตรวจสอบพิกัด GPS",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
