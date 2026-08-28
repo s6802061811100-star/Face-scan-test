@@ -302,7 +302,7 @@
 </div>
 
 <script>
-  const API_URL        = localStorage.getItem('gasApiUrl') || GAS_API_URL;
+  const API_URL        = '/api'; // Always use Node/Express proxy; server forwards to configured GAS URL
   const video          = document.getElementById('video');
   const mainStatus     = document.getElementById('main-status');
   const overlayStatus  = document.getElementById('overlay-status');
